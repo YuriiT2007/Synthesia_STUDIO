@@ -1,0 +1,101 @@
+.box-section {
+  //   padding-top: 94px;
+  background-color: #ffffff;
+}
+
+.module {
+  //   list-style: none;
+  //   display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    background-color: #ffffff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    max-width: 768px;
+    margin: 0 auto;
+    grid-gap: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    gap: 30px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+.module__groop-pec {
+  //   margin-left: 30px;
+
+  list-style: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    padding: 0;
+    flex: 0 1 100%;
+    // flex-basis: calc(100% / 2 - 30px);
+    // width: calc(100% / 2 - 30px);
+    flex: 0 1 calc(100% / 4 - 0px);
+  }
+}
+
+.module__groop-pec:first-child {
+  margin-left: 0px;
+  @media screen and (min-width: 768px) {
+    margin-left: 0;
+  }
+}
+
+.module__icomfive {
+  border: 1px solid transparent;
+
+  // margin-bottom: 30px;
+  background-color: #f5f4fa;
+  height: 120px;
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+
+  // padding-left: 100px;
+  // padding-right: 100px;
+  @media screen and (min-width: 768px) {
+    width: 354px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+}
+.module_svg {
+  width: auto;
+  height: auto;
+}
+
+.module__good-job {
+  color: var(--text-dec-black);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.module__exersise {
+  //   position: absolute;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
