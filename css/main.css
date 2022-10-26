@@ -847,7 +847,8 @@ textarea:not(:placeholder-shown) {
   width: 90px;
   border: 2px solid black;
   border-radius: 4px;
-  padding-top: 50px;
+  padding-top: 10px;
+  background: url(https://www.avito.st/remote-modules/sx-item-creator/4a5764cb/8bb1db058a01fabddc8a.svg) center no-repeat #ffffff;
 }
 
 .formfild__form-grup label {
